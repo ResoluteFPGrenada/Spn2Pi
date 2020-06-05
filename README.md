@@ -12,7 +12,7 @@ COLUMN_NAME\~PITAG_NAME\~COLUMN_NUMBER
 
 1b. In config.txt file add these lines.  
 [  
-    CopyFileSource: "REPORT FILE LOCATION ... MAKE SURE TO USE double slashes for each directory: example:   \\\\167.147.23.45\\D\\Test.xlsm"  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CopyFileSource: "REPORT FILE LOCATION ... MAKE SURE TO USE double slashes for each directory: example:   \\\\167.147.23.45\\D\\Test.xlsm"  
 ]  
 
 Create the scheduled tasks for both Daily and Shift programs. ( Daily = SpnToPi.ps1 and Shift = SpnToPi_Shift.ps1 ).
